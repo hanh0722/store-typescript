@@ -1,0 +1,33 @@
+.nav{
+    height: 15vh;
+    background: #EBA138;
+    .list-items{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+        padding: 0 5%;
+        list-style: none;
+    }
+    .logo{
+        font-size: 22px;
+        text-transform: uppercase;
+        color: white;
+        font-weight: bold;
+    }
+    .list{
+        display: flex;
+        align-items: center;
+        li{
+            padding: 0px 15px;
+            position: relative;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+    }
+    .active{
+        font-weight: bold;
+    }
+}
